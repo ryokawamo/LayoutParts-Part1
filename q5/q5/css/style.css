@@ -1,1 +1,120 @@
 @charset "UTF-8";
+
+.flex{
+  display: flex;
+  flex-direction: row;
+}
+
+.flex2{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.flex-flow{
+  display: flex;
+  flex-flow: column;
+}
+
+.flex-flow2{
+  display: flex;
+  flex-flow: column-reverse;
+}
+
+.flex-wrap{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-wrap2{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-wrap3{
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.justify-content{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.justify-content2{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.justify-content3{
+  display: flex;
+  justify-content: center;
+}
+
+.justify-content4{
+  display: flex;
+  justify-content: space-between;
+}
+
+.justify-content5{
+  display: flex;
+  justify-content: space-around;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  gap: 10px;
+}
+
+.grid2{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.grid3{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 200px 200px;
+  gap: 10px;
+}
+
+.grid4{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  gap: 10px;
+}
+
+.text{
+  width: 65px;
+  margin: 10px;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  background: #00bbdd;
+}
+
+.text2{
+  padding: 10px;
+  background: #00bbdd;
+  color: #fff;
+}
+
+.red-box{
+  background: #dd0700;
+  grid-column: 1/3;
+}
+
+.green-box{
+  background: #0bdd00;
+  grid-row: 2/4;
+}
+
+.yellow-box{
+  background: #d9bb00;
+  grid-column: 2/4;
+}
